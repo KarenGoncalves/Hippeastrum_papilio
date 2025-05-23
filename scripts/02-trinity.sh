@@ -25,6 +25,7 @@ SPECIES=Hippeastrum_papilio
 module restore trinity_modules
 source ~/trinotateAnnotation/bin/activate
 inDIR=$SCRATCH/${SPECIES}
+source $inDIR/scripts/format_fasta.sh
 
 Trinity --seqType fq --max_memory 300G\
  --output $SLURM_TMPDIR/Trinity\
@@ -59,6 +60,8 @@ if [[ -e $SLURM_TMPDIR/Trinity.Trinity.fasta.gene_trans_map ]]; then
         grep ">" $inDIR/tmp.fa |\
          sed -E "s/>([A-Za-z0-9\._\-]+)(_seq|i[0-9]+)*( .+)*/\1\t\1\2/" >\
          $inDIR/${SPECIES}_gene_trans_map
+
+	format_fasta $inDIR/tmp.fa $inDIR/${SPECIES}_nt97.fa
 else
         echo "Trinity failed"
 fi
