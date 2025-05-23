@@ -1,0 +1,24 @@
+Samples were downloaded from Genome Quebec and stored.
+To keep the raw data untouched, links to them were created in another directory.
+Each dataset was renamed using the excel sheet provided by Genome Quebec (which indicated the library name and the file name; links have the library names).
+
+## Pipeline
+
+After download of raw data, MD5sum check and link creation:
+
+- 01.fastp.sh
+- 03.trinity.sh
+	- trinity
+	- CD-EST-HIT
+- 05.longORFs.sh
+- 06
+	- blastp
+	- hmm
+- 07.predict.sh 
+	- transdecoder predict
+- 08
+	- emapper
+	- SignalP 6
+	- infernal
+	- TmHMM
+- 09.report
