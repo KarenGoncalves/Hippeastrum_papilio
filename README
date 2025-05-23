@@ -6,19 +6,20 @@ Each dataset was renamed using the excel sheet provided by Genome Quebec (which 
 
 After download of raw data, MD5sum check and link creation:
 
-- 01.fastp.sh
-- 03.trinity.sh
+- 01-fastp.sh
+- 02-trinity.sh
 	- trinity
 	- CD-EST-HIT
-- 05.longORFs.sh
-- 06
+- 03-longORFs.sh
+- 03-busco.sh
+- 04
 	- blastp
 	- hmm
-- 07.predict.sh 
+- 05-predict.sh 
 	- transdecoder predict
-- 08
+- 06
 	- emapper
 	- SignalP 6
 	- infernal
 	- TmHMM
-- 09.report
+- 07-report
