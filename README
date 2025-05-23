@@ -6,6 +6,7 @@ Each dataset was renamed using the excel sheet provided by Genome Quebec (which 
 
 After download of raw data, MD5sum check and link creation:
 
+- 00-prepare_environments.sh
 - 01-fastp.sh
 - 02-trinity.sh
 	- trinity
