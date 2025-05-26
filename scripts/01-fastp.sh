@@ -3,8 +3,8 @@
 #SBATCH --mem-per-cpu=8G
 #SBATCH --time=0:10:00
 #SBATCH --cpus-per-task=8
-#SBATCH --output=/scratch/$USER/Hippeastrum_papilio/slurms/fastp_%A-%a.out
-#SBATCH --array=1-27
+#SBATCH --output=/scratch/sajjad71/Hippeastrum_papilio/slurms/fastp_%A-%a.out
+#SBATCH --array=2-27
 
 # This script uses a metadata table ($PWD/metadata/metadata.txt) that has the columns:
 # 1) Run ID, 2) sample name (no space), 3) library layout (SE or PE),
