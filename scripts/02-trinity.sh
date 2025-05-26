@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --account=def-desgagne
 #SBATCH --job-name=trinity_Hipap
-#SBATCH --output=/scratch/$USER/Hippeastrum_papilio/slurms/Trinity_%j.out
+#SBATCH --output=/scratch/sajjad71/Hippeastrum_papilio/slurms/Trinity_%j.out
 #SBATCH --mem=300G
 #SBATCH --time=3-00:00:00
 #SBATCH --nodes=1
