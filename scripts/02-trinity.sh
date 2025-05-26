@@ -18,7 +18,7 @@ SPECIES=Hippeastrum_papilio
 # metaeuk/6 r/4.3.1 boost/1.72.0 gsl/2.6 flexiblas/3.0.4\
 # suitesparse/5.7.1 samtools/1.17 jellyfish\
 # libffi/3.3 python/3.10.2 scipy-stack java/13.0.2 bowtie2/2.4.1\
-# salmon/1.7 trinity/2.14.0
+# salmon/1.4 trinity/2.14.0
 #
 #module save trinity_modules
 
