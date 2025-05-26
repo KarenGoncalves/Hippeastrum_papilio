@@ -1,3 +1,5 @@
+#!/bin/sh
+
 function format_fasta () {
 inFasta=$1
 outFasta=$2
