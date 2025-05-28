@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DIR=$SCRATCH/Hippeastrum_papilio
+DIR=$SCRATCH/Hippeastrum_papilio/clean_reads
 metadata=$DIR/metadata/metadata.txt
 
 cut -f 1,2 $metadata |\
