@@ -1,0 +1,278 @@
+Restoring modules from user's trinity_modules
+
+
+     ______  ____   ____  ____   ____  ______  __ __
+    |      ||    \ |    ||    \ |    ||      ||  |  |
+    |      ||  D  ) |  | |  _  | |  | |      ||  |  |
+    |_|  |_||    /  |  | |  |  | |  | |_|  |_||  ~  |
+      |  |  |    \  |  | |  |  | |  |   |  |  |___, |
+      |  |  |  .  \ |  | |  |  | |  |   |  |  |     |
+      |__|  |__|\_||____||__|__||____|  |__|  |____/
+
+    Trinity-v2.14.0
+
+
+
+Left read files: $VAR1 = [
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_1.fastq'
+        ];
+Right read files: $VAR1 = [
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_2.fastq'
+        ];
+-shouldn't require more than 200G RAM, so resetting max memory suggestion value to 200G to avoid potential problems.
+Trinity version: Trinity-v2.14.0
+-ERROR: couldn't run the network check to confirm latest Trinity software version.
+
+Monday, June 2, 2025: 19:23:11	CMD: java -Xmx64m -XX:ParallelGCThreads=2  -jar /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/util/support_scripts/ExitTester.jar 0
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+Monday, June 2, 2025: 19:23:23	CMD: java -Xmx4g -XX:ParallelGCThreads=2  -jar /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/util/support_scripts/ExitTester.jar 1
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+Monday, June 2, 2025: 19:23:56	CMD: mkdir -p /localscratch/sajjad71.56282072.0/Trinity
+Monday, June 2, 2025: 19:23:56	CMD: mkdir -p /localscratch/sajjad71.56282072.0/Trinity/chrysalis
+
+
+----------------------------------------------------------------------------------
+-------------- Trinity Phase 1: Clustering of RNA-Seq Reads  ---------------------
+----------------------------------------------------------------------------------
+
+---------------------------------------------------------------
+------------ In silico Read Normalization ---------------------
+-- (Removing Excess Reads Beyond 200 Coverage --
+---------------------------------------------------------------
+
+# running normalization on reads: $VAR1 = [
+          [
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R1_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_1.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_1.fastq'
+          ],
+          [
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R1_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_2.fastq',
+            '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_2.fastq'
+          ]
+        ];
+
+
+Monday, June 2, 2025: 19:23:56	CMD: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/util/insilico_read_normalization.pl --seqType fq --JM 200G  --max_cov 200 --min_cov 1 --CPU 20 --output /localscratch/sajjad71.56282072.0/Trinity/insilico_read_normalization --max_CV 10000  --left /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_1.fastq --right /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_2.fastq --pairs_together  --PARALLEL_STATS  
+-prepping seqs
+Converting input files. (both directions in parallel)CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R1_1.fastq >> left.fa
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R1_2.fastq >> right.fa
+CMD finished (52 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_2.fastq >> right.fa
+CMD finished (54 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_1.fastq >> left.fa
+CMD finished (55 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_2.fastq >> right.fa
+CMD finished (56 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_1.fastq >> left.fa
+CMD finished (57 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_1.fastq >> left.fa
+CMD finished (63 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_2.fastq >> right.fa
+CMD finished (59 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_1.fastq >> left.fa
+CMD finished (57 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_2.fastq >> right.fa
+CMD finished (54 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_2.fastq >> right.fa
+CMD finished (62 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_1.fastq >> left.fa
+CMD finished (66 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_1.fastq >> left.fa
+CMD finished (80 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_2.fastq >> right.fa
+CMD finished (46 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_1.fastq >> left.fa
+CMD finished (48 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_2.fastq >> right.fa
+CMD finished (64 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_1.fastq >> left.fa
+CMD finished (59 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_2.fastq >> right.fa
+CMD finished (51 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_1.fastq >> left.fa
+CMD finished (48 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_2.fastq >> right.fa
+CMD finished (49 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_1.fastq >> left.fa
+CMD finished (60 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_2.fastq >> right.fa
+CMD finished (63 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_1.fastq >> left.fa
+CMD finished (52 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_2.fastq >> right.fa
+CMD finished (48 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_2.fastq >> right.fa
+CMD finished (51 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_1.fastq >> left.fa
+CMD finished (77 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_1.fastq >> left.fa
+CMD finished (91 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_2.fastq >> right.fa
+CMD finished (54 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_1.fastq >> left.fa
+CMD finished (50 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_2.fastq >> right.fa
+CMD finished (58 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_2.fastq >> right.fa
+CMD finished (67 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_1.fastq >> left.fa
+CMD finished (48 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_2.fastq >> right.fa
+CMD finished (49 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_1.fastq >> left.fa
+CMD finished (59 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_1.fastq >> left.fa
+CMD finished (62 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_2.fastq >> right.fa
+CMD finished (44 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_2.fastq >> right.fa
+CMD finished (45 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_1.fastq >> left.fa
+CMD finished (43 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_2.fastq >> right.fa
+CMD finished (46 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_1.fastq >> left.fa
+CMD finished (47 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_1.fastq >> left.fa
+CMD finished (51 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_2.fastq >> right.fa
+CMD finished (47 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_2.fastq >> right.fa
+CMD finished (50 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_1.fastq >> left.fa
+CMD finished (73 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_2.fastq >> right.fa
+CMD finished (72 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_1.fastq >> left.fa
+CMD finished (46 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_2.fastq >> right.fa
+CMD finished (45 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_1.fastq >> left.fa
+CMD finished (47 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_1.fastq >> left.fa
+CMD finished (64 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_2.fastq >> right.fa
+CMD finished (51 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_2.fastq >> right.fa
+CMD finished (69 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_1.fastq >> left.fa
+CMD finished (73 seconds)
+CMD: seqtk-trinity seq -A -R 2  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_2.fastq >> right.fa
+CMD finished (75 seconds)
+CMD: seqtk-trinity seq -A -R 1  /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_1.fastq >> left.fa
+CMD finished (47 seconds)
+CMD finished (53 seconds)
+CMD: touch left.fa.ok
+CMD finished (0 seconds)
+CMD: touch right.fa.ok
+CMD finished (0 seconds)
+Done converting input files.CMD: cat left.fa right.fa > both.fa
+cat: write error: No space left on device
+Error, cmd: cat left.fa right.fa > both.fa died with ret 256 at /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/util/insilico_read_normalization.pl line 795.
+Error, cmd: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/util/insilico_read_normalization.pl --seqType fq --JM 200G  --max_cov 200 --min_cov 1 --CPU 20 --output /localscratch/sajjad71.56282072.0/Trinity/insilico_read_normalization --max_CV 10000  --left /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_1.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_1.fastq --right /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_2.fastq,/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_2.fastq --pairs_together  --PARALLEL_STATS   died with ret 512 at /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/Trinity line 2879.
+	main::process_cmd("/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/C"...) called at /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/Trinity line 3432
+	main::normalize("/localscratch/sajjad71.56282072.0/Trinity/insilico_read_norma"..., 200, ARRAY(0x5598250ab1e0), ARRAY(0x5598250ab1c8)) called at /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/Trinity line 3372
+	main::run_normalization(200, ARRAY(0x5598250ab1e0), ARRAY(0x5598250ab1c8)) called at /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/Trinity line 1410
+Trinity failed

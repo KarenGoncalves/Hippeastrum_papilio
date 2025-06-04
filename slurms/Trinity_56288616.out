@@ -1,0 +1,155 @@
+Restoring modules from user's trinity_modules
+
+
+     ______  ____   ____  ____   ____  ______  __ __
+    |      ||    \ |    ||    \ |    ||      ||  |  |
+    |      ||  D  ) |  | |  _  | |  | |      ||  |  |
+    |_|  |_||    /  |  | |  |  | |  | |_|  |_||  ~  |
+      |  |  |    \  |  | |  |  | |  |   |  |  |___, |
+      |  |  |  .  \ |  | |  |  | |  |   |  |  |     |
+      |__|  |__|\_||____||__|__||____|  |__|  |____/
+
+    Trinity-v2.14.0
+
+
+
+Left read files: $VAR1 = [
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_1.fastq'
+        ];
+Right read files: $VAR1 = [
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_2.fastq'
+        ];
+-shouldn't require more than 200G RAM, so resetting max memory suggestion value to 200G to avoid potential problems.
+Trinity version: Trinity-v2.14.0
+-ERROR: couldn't run the network check to confirm latest Trinity software version.
+
+Tuesday, June 3, 2025: 08:10:27	CMD: java -Xmx64m -XX:ParallelGCThreads=2  -jar /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/util/support_scripts/ExitTester.jar 0
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+Tuesday, June 3, 2025: 08:10:27	CMD: java -Xmx4g -XX:ParallelGCThreads=2  -jar /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/util/support_scripts/ExitTester.jar 1
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+Tuesday, June 3, 2025: 08:10:27	CMD: mkdir -p /localscratch/sajjad71.56288616.0/Trinity
+Tuesday, June 3, 2025: 08:10:27	CMD: mkdir -p /localscratch/sajjad71.56288616.0/Trinity/chrysalis
+
+
+----------------------------------------------------------------------------------
+-------------- Trinity Phase 1: Clustering of RNA-Seq Reads  ---------------------
+----------------------------------------------------------------------------------
+
+Converting input files. (in parallel)Tuesday, June 3, 2025: 08:10:27	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R1_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:10:27	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R1_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:11:17	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:11:36	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:12:14	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:12:38	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:13:01	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:13:25	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:13:47	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:14:13	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:14:43	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:15:10	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:15:28	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:15:57	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:16:25	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:16:52	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:17:13	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:17:41	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:18:07	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:18:34	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:18:55	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:19:21	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:19:47	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:20:12	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:20:32	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:20:59	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:21:18	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:21:47	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:22:18	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:22:40	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:23:18	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:23:35	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:24:04	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:24:29	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:25:02	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:25:23	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:25:51	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:26:14	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:26:44	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:27:05	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:27:35	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:27:54	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:28:29	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:28:45	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:29:29	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:29:55	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:30:15	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:30:44	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:31:13	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:31:34	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:32:13	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:32:34	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:33:03	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_2.fastq | seqtk-trinity seq -A -R 2 - >> right.fa
+Tuesday, June 3, 2025: 08:33:31	CMD: cat /scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_1.fastq | seqtk-trinity seq -A -R 1 - >> left.fa
+Tuesday, June 3, 2025: 08:33:59	CMD: touch right.fa.ok
+Tuesday, June 3, 2025: 08:34:24	CMD: touch left.fa.ok
+Tuesday, June 3, 2025: 08:34:24	CMD: touch left.fa.ok right.fa.ok
+Tuesday, June 3, 2025: 08:34:24	CMD: cat left.fa right.fa > /localscratch/sajjad71.56288616.0/Trinity/both.fa
+cat: write error: No space left on device
+Error, cmd: cat left.fa right.fa > /localscratch/sajjad71.56288616.0/Trinity/both.fa died with ret 256 at /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/Trinity line 2879.
+	main::process_cmd("cat left.fa right.fa > /localscratch/sajjad71.56288616.0/Trin"...) called at /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/Trinity line 1601
+	main::run_Trinity() called at /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/Trinity line 1460
+	eval {...} called at /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx512/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/Trinity line 1459
+
+Trinity run failed. Must investigate error above.
+Trinity failed
