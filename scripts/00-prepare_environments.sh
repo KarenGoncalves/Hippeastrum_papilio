@@ -28,7 +28,7 @@ backports-abc==0.5+computecanada
 backports.shutil_get_terminal_size==1.0.0+computecanada
 bcrypt==4.0.1+computecanada
 beautifulsoup4==4.12.2+computecanada
-biopython==1.84+computecanada
+biopython==1.85
 bitarray==2.8.1+computecanada
 bitstring==4.1.1+computecanada
 bleach==6.0.0+computecanada

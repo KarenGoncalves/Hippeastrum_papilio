@@ -15,7 +15,7 @@ cut -f 1 $metadata |\
 	else if ($1 == "PI") {tissue="Pistil"}\
 	else if ($1 == "PT") {tissue="Petal"}\
 	else {tissue=$1};\
-	print tissue, $2, DIR"/"$2"_1.fastq", DIR"/"$2"_2.fastq"}'\
+	print tissue, $2, DIR"/clean_reads/"$2"_1.fastq", DIR"/clean_reads/"$2"_2.fastq"}'\
  > metadata/samples_file.txt
 
 # cut -f 1 means "select first column"

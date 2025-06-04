@@ -18,7 +18,7 @@ mkdir -p $PWD/clean_reads $PWD/fastpReports/
 sample_info=($(awk -F '\t' -v r=$SLURM_ARRAY_TASK_ID 'NR == r {print $0}' $PWD/metadata/metadata.txt))
 length_required=$([ ${sample_info[4]} == "short" ] && echo 30 || echo 50) # In this case, length required will be 50 because these are PE150 reads
 
-MYREADS=($(ls /project/def-desgagne/Hpapilio_2025/${sample_info[0]}*))
+MYREADS=($(ls /project/def-desgagne/sajjad71/Hpapilio_2025/${sample_info[0]}*))
 # The conditional below will standardize the clean reads names
 
 if [[ ${sample_info[2]} == "PE" ]]; then
