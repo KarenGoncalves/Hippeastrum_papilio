@@ -6,6 +6,7 @@
 #SBATCH --time=3-00:00:00
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=20
+#SBATCH --tmp=600G
 
 ################### Replace karencgs, FOLDER and SPECIES with the correct names/paths ###################
 ACRONYM=Hipap_
