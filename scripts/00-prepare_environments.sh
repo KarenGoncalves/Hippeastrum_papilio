@@ -6,6 +6,15 @@ cd $SCRATCH/Hippeastrum_papilio
 mkdir slurms results_annotation 
 
 module --force purge
+module load StdEnv/2020 gcc/9.3.0 expat/2.2.9 perl/5.30.2\
+ metaeuk/6 r/4.3.1 boost/1.72.0 gsl/2.6 flexiblas/3.0.4\
+ suitesparse/5.7.1 samtools/1.17 jellyfish\
+ libffi/3.3 python/3.10.2 scipy-stack java/13.0.2 bowtie2/2.4.1\
+ salmon/1.7 trinity/2.14.0
+
+module save trinity_modules
+
+module --force purge
 
 #ml = module load
 ml StdEnv/2020 gcc/9.3.0 boost/1.72.0 perl/5.30.2 java scipy-stack
@@ -137,15 +146,15 @@ websocket_client==1.6.2+computecanada
 XlsxWriter==1.4.3
 zipp==3.16.2+computecanada" > ~/requirements.txt
 
-virtualenv ~/trinotateAnnotation
-source ~/trinotateAnnotation/bin/activate
-pip install --upgrade pip
-pip install -r ~/requirements.txt
+#virtualenv ~/trinotateAnnotation
+#source ~/trinotateAnnotation/bin/activate
+#pip install --upgrade pip
+#pip install -r ~/requirements.txt
 
-mkdir -p ~/busco_downloads/lineages
-cd ~/busco_downloads/lineages
-wget https://busco-data.ezlab.org/v5/data/lineages/liliopsida_odb10.2024-01-08.tar.gz
-tar -xvf liliopsida_odb10.2024-01-08.tar.gz
+#mkdir -p ~/busco_downloads/lineages
+#cd ~/busco_downloads/lineages
+#wget https://busco-data.ezlab.org/v5/data/lineages/liliopsida_odb10.2024-01-08.tar.gz
+#tar -xvf liliopsida_odb10.2024-01-08.tar.gz
 
 #module restore annotation_modules
 #source ~/trinotateAnnotation/bin/activate
@@ -161,11 +170,11 @@ tar -xvf liliopsida_odb10.2024-01-08.tar.gz
 # --create\
 # --trinotate_data_dir ${DATA_DIR}
 
-module --force purge
-ml StdEnv/2020 scipy-stack/2020a
+#module --force purge
+#ml StdEnv/2020 scipy-stack/2020a
 
-virtualenv ~/eggnog
-source ~/eggnog/bin/activate
+#virtualenv ~/eggnog
+#source ~/eggnog/bin/activate
 
-pip install --upgrade pip
-pip install eggnog_mapper==2.1.6+computecanada
+#pip install --upgrade pip
+#pip install eggnog_mapper==2.1.6+computecanada
