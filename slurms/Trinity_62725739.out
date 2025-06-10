@@ -1,0 +1,83 @@
+Lmod has detected the following error: User module collection:
+"trinity_modules" does not exist.
+  Try "module savelist" for possible choices.
+
+
+
+
+
+     ______  ____   ____  ____   ____  ______  __ __
+    |      ||    \ |    ||    \ |    ||      ||  |  |
+    |      ||  D  ) |  | |  _  | |  | |      ||  |  |
+    |_|  |_||    /  |  | |  |  | |  | |_|  |_||  ~  |
+      |  |  |    \  |  | |  |  | |  |   |  |  |___, |
+      |  |  |  .  \ |  | |  |  | |  |   |  |  |     |
+      |__|  |__|\_||____||__|__||____|  |__|  |____/
+
+    Trinity-v2.14.0
+
+
+
+Left read files: $VAR1 = [
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_1.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_1.fastq'
+        ];
+Right read files: $VAR1 = [
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/R3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BS3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/BI3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/YF3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/OF3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/ST3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PD3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PT3_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI1_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI2_2.fastq',
+          '/scratch/sajjad71/Hippeastrum_papilio/clean_reads/PI3_2.fastq'
+        ];
+-shouldn't require more than 200G RAM, so resetting max memory suggestion value to 200G to avoid potential problems.
+Trinity version: Trinity-v2.14.0
+** NOTE: Latest version of Trinity is Trinity-v2.15.2, and can be obtained at:
+	https://github.com/trinityrnaseq/trinityrnaseq/releases
+
+Error, cannot find jellyfish installed on this system. Be sure to install it. You can get it here: http://www.genome.umd.edu/jellyfish.html at /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/trinity/2.14.0/trinityrnaseq-v2.14.0/Trinity line 4035.
+Trinity failed
