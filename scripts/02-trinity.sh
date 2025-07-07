@@ -3,7 +3,7 @@
 #SBATCH --job-name=trinity_Hipap
 #SBATCH --output=/scratch/sajjad71/Hippeastrum_papilio/slurms/Trinity_%j.out
 #SBATCH --mem=300G
-#SBATCH --time=3-00:00:00
+#SBATCH --time=5-00:00:00
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=20
 #SBATCH --tmp=960G
