@@ -1,4 +1,4 @@
-gene_ID Description
+gene_ID	Description
 Hipap_TRINITY_DN20752_c0_g1	HpC96T
 Hipap_TRINITY_DN514726_c0_g1	HpC96T
 Hipap_TRINITY_DN7708_c0_g1	HpC96T
