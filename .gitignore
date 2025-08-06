@@ -6,3 +6,4 @@ slurms/
 .Rproj.user
 Hpapilio_2025.Rproj
 trinity_genes.gtf
+Filtered_kallisto_TPM.csv
