@@ -3,3 +3,6 @@ clean_reads/
 fastp.html
 fastpReports/
 slurms/
+.Rproj.user
+Hpapilio_2025.Rproj
+trinity_genes.gtf
